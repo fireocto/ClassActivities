@@ -1,0 +1,32 @@
+ul {
+  color: blue;
+}
+
+li:first-child {
+  color: black;
+}
+
+li:last-child {
+  color: black;
+}
+li:nth-child(2n) {
+  background-color: gray;
+}
+
+li:hover {
+  background-color: tomato;
+}
+
+h1:hover {
+  color: blueviolet;
+}
+
+h2 {
+  border: 5px dotted aquamarine;
+  color: blue;
+}
+
+h2:hover {
+  color: darkorchid;
+  border-color: orange;
+}
